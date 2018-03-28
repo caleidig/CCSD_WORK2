@@ -5,3 +5,10 @@ C:\Users\ZeroRandom\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.c
 C:\Users\ZeroRandom\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\ZeroRandom\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\ZeroRandom\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Esposito\Documents\GitHub\CCSD_WORK2_Chris_Leidig\Week 4 Array Scores\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Esposito\Documents\GitHub\CCSD_WORK2_Chris_Leidig\Week 4 Array Scores\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Esposito\Documents\GitHub\CCSD_WORK2_Chris_Leidig\Week 4 Array Scores\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Esposito\Documents\GitHub\CCSD_WORK2_Chris_Leidig\Week 4 Array Scores\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Esposito\Documents\GitHub\CCSD_WORK2_Chris_Leidig\Week 4 Array Scores\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Esposito\Documents\GitHub\CCSD_WORK2_Chris_Leidig\Week 4 Array Scores\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Esposito\Documents\GitHub\CCSD_WORK2_Chris_Leidig\Week 4 Array Scores\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

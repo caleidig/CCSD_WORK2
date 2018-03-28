@@ -10,6 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //Console.OutputEncoding = System.Text.Encoding.UTF8;
+            //Console.Write( (char)1421 );
             Console.WriteLine("Enter Scores Below. Any input outside of 1-10 will show results.");
             Console.WriteLine();
             DynamicArray studentArray = new DynamicArray();

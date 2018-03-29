@@ -10,6 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            MultFactor< double >.Instance.SetFactor(10.0);
+            Point2D<int> pt = new Point2D<int>( 1, 2 );
+            Point2D<double> pt2 = new Point2D<double>( 1.0001, 2.0001 );
+            Point2D<float> pt3 = new Point2D<float>( 1.0f, 2.0f );
+
+            Console.WriteLine(pt);
+            //Console.WriteLine("Mult factor = " + MultFactor<double>.Instance.GetFactor());
+            int x = pt.X;
+            Console.WriteLine("x = " + x);
+
             //Console.OutputEncoding = System.Text.Encoding.UTF8;
             //Console.Write( (char)1421 );
             Console.WriteLine("Enter Scores Below. Any input outside of 1-10 will show results.");
@@ -30,14 +40,14 @@ namespace ConsoleApp1
                     studentArray.AddToArray(input);
                 //else
                 //{
-                    studentArray[counter] = input;
+                    //studentArray[counter] = input;
                 //}
                 counter++;
                 Console.WriteLine();
             }
             Console.WriteLine();
             
-            for (int i = 0; i < studentArray.Length-1;i++)
+            for (int i = 0; i < studentArray.Length;i++)
             {
                 Console.WriteLine("Score " + (i+1) + ": " + studentArray[i]);
             }
@@ -47,7 +57,7 @@ namespace ConsoleApp1
             Console.ReadKey();
 
             double total = 0;
-            for (int i = 0; i <= studentArray.Length-1;i++)
+            for (int i = 0; i < studentArray.Length;i++)
             {
                 total += studentArray[i];
             }

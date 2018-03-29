@@ -28,31 +28,33 @@ namespace ConsoleApp1
             }
         }
 
+        protected void ExtendArray( int new_size )
+        {
+            double[] temp_array = new double[new_size ];
+
+            // backup
+            for (int i = 0; i < m_array.Length; i++)
+                temp_array[i] = m_array[i];
+
+            // resize
+            System.Array.Resize(ref m_array, (m_numValsAdded + 1));
+
+            // restore backup
+            for (int i = 0; i < m_array.Length; i++)
+                m_array[i] = temp_array[i];
+        }
+
         public void AddToArray(double val)
         {
             m_numValsAdded++;
-            if (m_numValsAdded <= m_array.Length)
-            {
+            if(m_numValsAdded <= m_array.Length)
                 m_array[m_numValsAdded - 1] = val;
-            }
             else
             {
-                double[] temp_array = new double[m_numValsAdded + 1];
-
-                for (int i = 0; i < m_array.Length; i++)
-                {
-                    temp_array[i] = m_array[i];
-                }
-
-                System.Array.Resize(ref m_array, (m_numValsAdded + 1));
-
-                for (int i = 0; i < m_array.Length; i++)
-                {
-                    m_array[i] = temp_array[i];
-                }
-                
-                m_array[m_numValsAdded] = val;
+                ExtendArray(m_numValsAdded + 1);
+                m_array[m_numValsAdded - 1] = val;
             }
+            
         }
 
         public double this[int index]
